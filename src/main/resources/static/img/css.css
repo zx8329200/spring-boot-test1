@@ -1,0 +1,44 @@
+body {background:#FAFAFA;font-size:13px;font-family:Microsoft YaHei,'\5FAE\8F6F\96C5\9ED1',WenQuanYi Micro Hei,'\6587\6CC9\9A7F\5FAE\7C73\9ED1',serif,PMingLiU,Arial;color:#333;margin: 0;padding: 0;border: 0;}
+a {color:#bbb;text-decoration:none;-moz-transition:color 500ms linear;-webkit-transition:color 500ms linear;-o-transition:color 500ms linear;transition:color 500ms linear;}
+a:hover {color:#999;}
+::selection {color: #D27400;background: #dcdcdc;}
+::-moz-selection {color: #D27400;background: #dcdcdc;}
+#page{margin:0 auto;}
+.box {position:absolute;width:100%;height:170px;top:36%;}
+img {border:0 none;}
+h1, h2{display:none;}
+img{border:none;}
+#menu {display:block;height:30px;overflow:hidden;margin:0 auto 10px;line-height:30px;text-align:center;background:#404040;color:#888;-moz-animation-name: my_menu;-moz-animation-duration: 500ms;-moz-animation-timing-function: ease-out;-webkit-animation-name: my_menu;-webkit-animation-duration: 500ms;-webkit-animation-timing-function: ease-out;}
+@-moz-keyframes my_menu {
+	0% {width:0%;opacity:0;-moz-border-radius:15px;border-radius:15px;}
+	30% {width:10%;-webkit-border-radius:15px;border-radius:15px;}
+	50% {width:40%;}
+	60% {width:50%;}
+	70% {width:60%;}
+	80% {width:70%;}
+	90% {width:90%;}
+	100% {width:100%;opacity:1;-moz-border-radius:0;border-radius:0;}
+}
+@-webkit-keyframes my_menu {
+	0% {width:0%;opacity:0;-webkit-border-radius:15px;border-radius:15px;}
+	30% {width:10%;-webkit-border-radius:15px;border-radius:15px;}
+	50% {width:40%;}
+	60% {width:50%;}
+	70% {width:60%;}
+	80% {width:70%;}
+	90% {width:90%;}	
+	100% {width:100%;opacity:1;-webkit-border-radius:0;border-radius:0;}
+}
+#menu a:link, #menu a:visited {color:#D27400; font-size:14px; padding:0 10px 0 10px}
+#menu a:hover {color:#fff;}
+.rakiy {width:700px;margin:0 auto; height:150px}
+.avatar{ display: block; width:60px;height:60px;float:left;padding-right:20px;display:block;}
+.title{text-align:center;height:90px;}
+.title a{margin:0; padding:0;font-size:50px;text-align:center;color:#404040;line-height:90px;text-shadow:0px 1px 5px #000;display:block;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;}
+.title a:hover{margin-top:-10px;text-shadow:0px 1px 8px #404040;}
+
+
+.like{margin-left:10px; height:60px;}
+.like p{ margin:0; padding:0;font-size:13px;line-height:28px;}
+.copyright {width:100%;height:30px;margin:0 auto;text-align:center; font-size:12px}
+.copyright a{color:#333;}
